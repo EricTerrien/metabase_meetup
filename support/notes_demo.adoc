@@ -1,0 +1,34 @@
+
+. Carto
+[source,shell]
+----
+http://nginx-meetup:80/departements-version-simplifiee.geojson
+----
+
+.Formule personnalisée
+[source,sql]
+----
+case([Département] = "75" OR [Département] = "13" OR [Département] = "59" OR [Département] = "33" OR [Département] = "69", "Prio", "Others")
+----
+
+.query 1
+[source,sql]
+----
+SELECT dep AS "Code Département", dep_lib AS "Département Lib",  SUM(voe_tot) AS "Nombre de voeux", SUM(capa_fin) AS "Cacapité", SUM(voe_tot)/SUM(capa_fin) AS "Ratio"
+FROM parcoursup
+GROUP BY dep, dep_lib
+ORDER BY 5 DESC
+----
+
+.query 2
+[source,sql]
+----
+WITH ens_ratio AS (
+SELECT dep AS "Code Département", dep_lib AS "Libellé Département",  SUM(voe_tot) AS "Nombre de voeux", SUM(capa_fin) AS "Cacapité", SUM(voe_tot)/SUM(capa_fin) AS "ratio"
+FROM parcoursup
+GROUP BY dep, dep_lib
+)
+SELECT *
+FROM ens_ratio
+WHERE ratio >= 20
+----

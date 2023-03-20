@@ -1,0 +1,21 @@
+= *METABASE* : une alternative open-source viable pour le monde de la BI ?
+
+:docinfo: private
+:source-highlighter: highlight.js
+:autofit-option:
+:icons: font
+:revealjs_slideNumber: true
+:revealjs_history: true
+:revealjs_theme: gop
+//:revealjs_pdfseparatefragments: false
+:revealjs_width: 1200
+:title-slide-background-image: title.png
+:title-slide-background-size: fill
+//:customcss: css/meetup.css
+:imagesdir: img
+
+include::data.adoc[]
+include::data_viz.adoc[]
+include::demo.adoc[]
+include::metabase.adoc[]
+

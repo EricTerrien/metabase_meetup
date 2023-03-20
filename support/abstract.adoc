@@ -1,0 +1,21 @@
+= CFP
+
+== Abstract
+
+* Le monde de la Business Intelligence (BI) moderne se concentre aujourd'hui sur des outils, vendus par des éditeurs, qui ont fait leurs preuves. Cependant, une solution opensource pourrait être l'alternative attendue par un certain public.
+* METABASE est une des solutions opensource qui vaut la peine d'être étudié. Elle va permettre de répondre à des problématiques précises (Type de visualisation, paramétrage, souplesse sur le modèle, alerting...), sans avoir à choisir entre les mastodontes du marché.
+* Une présentation de l'outil sera effectuée tout en soulignant ses points forts et ses limites. Cela permettra de se projeter sur le contexte d'utilisation d'un tel outil.
+* Des notions sur la Data Visualization seront présentées pour comprendre les axes d'étude de l'outil
+
+== Plan
+
+* Introduction, rappel sur les principes de la Business Intelligence (BI) : 5mn
+* Présentation de la Data Visualization : 5 mn
+* Pièges et tableaux de bord : 5 mn
+* Prise en main de l'outil et présentation du jeu de données : 5 mn
+* Réalisation de visuels : 5 mn
+* Génération des tableaux de bord et utilisation de filtre : 5 mn
+* SQL et snippet : 5 mn
+* Modèle et sécurité : 5 mn
+* Synthèse des points forts et des points faibles : Dans quel cas l'utiliser ? : 5mn
+* Questions/Réponses : 5 mn

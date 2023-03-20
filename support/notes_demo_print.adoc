@@ -1,0 +1,32 @@
+
+* *Parcourir les données* : Phase exploratoire rapide sur quelques indicateurs
+** Distribution sur les départements
+** Renommage des colonnes
+** Changement de type (sauf département) : Incidence sur certains visuels et filtres
+
+* *Question* : Nombre d'établissements par département
+** Camembert -> Bar Chart -> Carte
+** Ajout de la carte dans l'administration et changement de type dans les metadonnées
+
+* *Duplication question* : Nombre de voeux par département
+** Carte
+** Ajout dans un tableau de bords
+** Filtre sur les filières
+
+* *Question* : Nombre d'établissements par filière/département
+** Limite de 100
+** Filtre ou création d'un champ calculé pour limiter les données
+** Stacked bar chart
+
+.Dépend du temps.
+* *Question* : Comparatif Nombre d'établissement et nombre de voeux
+** Scatter plot
+*** Voeux
+*** Etablissement
+
+* *Requête* 1 : représentation carto
+* *Requête* 1 : représentation 2 - variable - snippet
+
+* *Modèles* :
+** Création pour quelques champs
+** Sécurité

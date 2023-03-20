@@ -1,0 +1,54 @@
+== Metabase
+
+=== Non abordés
+
+* Gestion d'Alerting par valeur de seuil
+* Notifications par Mail/Slack
+
+=== Points forts
+
+[%step]
+* Simplicité
+* Clarté
+* Réutilisabilité
+* Déploiement
+
+=== Axes d'améliorations
+
+[%step]
+* Paramétrage des visuels
+* Variétés des visuels
+* Navigation dans les menus
+* Connectivité autre que base de données
+
+=== Ajout des versions non-communautaires
+
+[%header,cols="2,8",grid=rows,frame=topbot,width=100%]
+|===
+| Niveau | Fonctionnalités
+| Starter
+| Support
+// 80€/mois pour 5 user + 5€/mois/user
+| Pro
+| Embedded, Permissions étendues
+// 475€/mois pour 10 users + 10€/mois/user
+| Entreprise
+| Personnalisation de l'interface, Support Prioritaire
+// A la carte
+|===
+
+=== Contextes d'utilisation
+
+* PME
+* Premier pas dans la Data Visualization
+* Peu d'exigences fortes sur des formats d'affichage
+
+== Questions/Réponses
+
+[%notitle]
+== Disclaimer de fin
+
+* Dans le cadre de cette présentation toutes les données proviennent soit de sources ouvertes ou de base de données ayant fait l'objet du respect réglementaire en lien avec le RGPD.
+* Aucune données sensibles ou à caractères personnels ne sera traitées. La finalité de traitement des données reste dans le cadre de cette étude.
+* La durée de conservation des données ne dépassera pas le cadre de l'étude.
+* Le stockage des bases de données se feront sur un environnement restreint au seul cadre de cette présentation et seront ensuite supprimées dès la fin de cette étude/présentation.

@@ -1,0 +1,31 @@
+== Disclaimer
+
+* La démo ne comprendra pas les phases suivantes
+** Déploiement de l'outil
+//Rapide avec un container
+** Phase exploratoire de données
+//on aime fouiller
+** Ingestion de données et création du modèle de données
+
+CAUTION: On va se restreindre à la création de tableaux de bords
+
+=== Jeu de données
+
+[.notes]
+--
+Pour éviter toute polémique, on va utiliser un jeu de donnée simple et non polémique à savoir
+--
+
+[horizontal]
+Sujet:: Parcoursup 2022
+Métriques:: Vœux de poursuite d'études et de réorientation dans l'enseignement supérieur et réponses des établissements
+Fournisseur:: Ministère de l'Enseignement Supérieur et de la Recherche (OPENDATA)
+
+
+[%notitle]
+=== Demo Time
+
+WARNING: C'est le moment de la démonstration !
+
+
+

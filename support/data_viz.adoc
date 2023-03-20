@@ -1,0 +1,307 @@
+[.columns.is-vcentered]
+== Data Visualization
+
+[.column.has-text-left]
+--
+[%step]
+.Nous permet de :
+* Représenter la donnée
+* Capter l'attention en racontant une histoire
+* Susciter l'interrogation
+* S'immerger dans la donnée
+* Mettre l'accent sur une idée et lui donner du sens
+--
+
+[.column]
+--
+[%step]
+image::Nightingale-mortality-small.jpg[]
+--
+
+[.notes]
+--
+* 70% de notre perception provient de nos yeux et interprété directement par le cerveau
+--
+//https://fr.wikipedia.org/wiki/Florence_Nightingale
+
+[%notitle]
+=== Nightingale
+
+image::Nightingale-mortality.jpg[background, size=fill]
+
+[NOTE.speaker]
+--
+.Florence Nightingale
+* Infirmière - étudie mathématiques - excelle statistiques
+* Front de guerre - visualiser les causes saisonnières de mortalité des patients
+* Histogramme circulaire imaginée 3 décennies avant par André-Michel Guerry
+* Périodes - mortalités des soldats : Bleu/Maladies, Rouge /blessure de guerre, Noir/Reste
+* Parlement britannique - prévention maladies - Nettoyage des égouts
+--
+
+=== Les visuels
+
+[.columns.is-vcentered]
+=== Team Camembert vs Team Doughnut
+
+[.column]
+--
+image::camembert.jpeg[width=500]
+--
+
+[.column]
+--
+image::donuts_americains.jpg[width=500]
+--
+
+[.notes]
+--
+* Qui aime faire des camemberts dans ses prez ?
+* Qui aime faire les donuts dans ses prez ?
+* Qui a raison : personne !
+--
+
+[%notitle]
+[.columns.is-vcentered]
+=== Pie Chart - Fight Club
+
+[.column]
+--
+image::fight_club.jpg[]
+--
+
+[.column]
+--
+[%step]
+* First rule of DataViz : You do *not* use *Pie Charts*
+* Second rule of DataViz : You do *not* use *Pie Charts*
+--
+
+=== Pourquoi ?
+
+[.notes]
+--
+* Posez-vous cette question :
+* Quel indice de confiance avez-vous sur votre capacité à découper une pizza en part égale ?
+--
+
+* L'œil humain ne sait pas comparer des angles
+* Il faut switcher entre la légende et le graphique pour comprendre le visuel
+* Il est difficile de visualiser les faibles pourcentages
+
+[%notitle]
+=== Pourquoi ?
+
+TIP: Le *bar chart* permet d'avoir une représentation plus visuelle des données
+
+image::why_pie_chart_stop.jpg[]
+
+[%notitle]
+=== Pourquoi ?
+
+[.notes]
+--
+Ne rigolez pas, ça arrive le + de 100%
+--
+
+--
+.Si vous devez briser les 2 premières règles :
+[%step]
+* S'assurer que le total fasse 100%...
+
+* Peu de catégories
+* On démarre à midi et on tourne dans le sens des aiguilles d'une montre
+* Trier de la plus grande à la plus petite valeur
+* Avoir le label lié à la part
+* Pas de 3D !
+--
+
+[.columns.is-vcentered]
+=== Variétés de visuels
+
+[.notes]
+--
+* Chaque visuel correspond à un besoin spécifique
+--
+
+[.column]
+--
+image::chart_1.png[width=250]
+--
+[.column]
+--
+image::chart_2.png[width=250]
+--
+[.column]
+--
+image::chart_3.png[width=250]
+--
+
+[%notitle]
+[.columns.is-vcentered]
+=== Box Plot
+
+[.notes]
+--
+Visualiser la distribution des données, utilisé notamment en Data Science pour visualiser les outliers, les extrêmes
+--
+
+[.column]
+--
+*Box Plot*
+--
+[.column]
+--
+image::box_plot.png[width=500]
+--
+
+[%notitle]
+[.columns.is-vcentered]
+=== Scatter Plot
+
+[.notes]
+--
+Visualiser un axe d'analyse par rapports à 2 indicateurs en abscisses/ordonnées + un troisième correspondant à la taille du cercle
+--
+
+[.column]
+--
+*Scatter Plot*
+--
+[.column]
+--
+image::scatter_plot.png[width=500]
+--
+
+[%notitle]
+[.columns.is-vcentered]
+=== Slopegraph
+
+[.notes]
+--
+Comparer des données notamment par un système de rang le plus souvent entre 2 périodes de données
+--
+
+[.column]
+--
+*Slopegraph*
+--
+[.column]
+--
+image::slopegraph.png[width=500]
+--
+
+=== Principes de base
+
+[.notes]
+--
+* minimiser le ink-ratio : ce qu'on a besoin de ce qui est superflue (ligne, trait, tout élément perturbant le message)
+* notamment via la gestion des labels, des axes et du format
+* Attention à ne pas aller trop loin. Trop simplifier peut impacter la compréhension
+* Par exemple, une valeur négative en rouge
+--
+
+[%step]
+* *Clarté* : Le message est identifiable. Pas de perturbation.
+* *Propreté* : Le message est analysable.
+* *Concision* : Le message a été simplifié pour être compréhensible.
+* *Captivant* : Le message a du sens. Mettre en évidence la partie la plus importante.
+
+=== Questions à se poser
+
+TIP: Être critique sur la donnée et les besoins métiers
+
+[%step]
+* Que cherche-t-on à démontrer ?
+* Comment cela se calcule ?
+* À qui est destinée la réponse ?
+
+=== Ce que j'ai à disposition
+
+[.notes]
+--
+* Quelle représentation sert au mieux le message que je souhaite faire passer ?
+** Palette de couleur (inclusive), Contraste, Points remarquables
+** échelle compréhensible par l'audience
+** permet de contextualiser et de parfois poser la question auquel le visuel répond
+** Tailles, Symbole
+** Mettre des données de références pour savoir si la donnée est celle attendue et l'intervalle jusqu'au seuil/objectif
+--
+
+* *Couleurs*
+* *Formes*
+* *Orientation*
+* *Ordre* et *Position*
+* *Respect d'une grille*
+* *Titres*
+* *Labels*
+* *Éléments comparatifs*
+
+=== Tableaux de bord
+
+* Les différents messages (visuels) permettent de raconter une histoire
+** Constatation(s) : Décrire les faits
+** Analyse(s) : Montrer les problématiques
+** Actions(s) : Mettre en évidences des actions possibles
+* Représentation sur un seul écran
+* Se doit d'évoluer en fonction des constatations et des analyses
+
+[%notitle]
+=== Tableaux de bord - Accompagnement
+
+* Peut s'accompagner :
+** De page(s) d'analyse dynamique permettant de manipuler les données (filtre, drill...)
+** De page(s) de rapport avec les données au niveau le plus fin pour de l'exploratoire
+
+=== Pièges de la donnée
+
+[.notes]
+--
+* Excel : Le coup le plus rusé de Microsoft a été de faire croire qu'on peut faire de la dataviz dans Excel
+* On démontre ce que l'on veut démontrer
+* Formulaire non rempli jusqu'au bout
+* meme graphique qui represente la meme chose
+--
+
+* Nombreuses histoires se révèlent fausses
+* Quelques conseils :
+** Ne jamais se limiter aux données que l'on possède
+** Ne jamais s'arrêter sur un visuel qui confirme une intuition
+** Ne jamais exclure des données incomplètes qui auraient du sens
+** Ne jamais croire qu'une corrélation implique une causalité
+
+=== Business Intelligence
+
+* Données
+* Outils de Data Visualization
+* Intelligence humaine qui la comprend et l'interprète - Besoin d'interlocuteur métier
+
+[.columns.is-vcentered]
+=== Exemple d'outils de Data Visualization
+
+[.notes]
+--
+* Galaxie d'outils
+* J'ai décidé de vous parler d'un outil moins visible sur le marché
+--
+
+[.column.has-text-left]
+--
+.Éditeur :
+* Microsoft Power BI
+* Qlik
+* Tableau
+* SAP Business Objects
+* IBM Cognos
+--
+
+[.column.has-text-left]
+--
+.Opensource :
+* Google Looker Studio
+// (Data Studio)
+* Apache Superset
+* Elastic Kibana
+* Grafana
+* Metabase
+--

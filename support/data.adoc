@@ -1,0 +1,41 @@
+[%notitle]
+== Présentation
+
+image::to_modify.png[background, size=fill]
+
+[.columns.is-vcentered]
+[%notitle]
+== Sommaire
+
+[.column.has-text-left]
+--
+[%step]
+.Présentation sur :
+* METABASE
+* Business Intelligence
+* Data Visualization (DataViz)
+* Data
+--
+
+[.column]
+--
+[%step]
+beyond the data
+--
+
+=== Données
+
+[NOTE.speaker]
+--
+* Que l'on le réalise ou pas, le traitement numérique de nos données est le but de nos systèmes transactionnels ou décisionnels
+--
+
+* _DATA IS EVERYTHING, AND EVERYTHING IS DATA_
+* Cœur de notre activité : Manipulation/Restitution
+
+[%notitle]
+=== Données
+
+WARNING: Pour comprendre les données que l'on manipule, comprenons d'abord comment les visualiser
+
+

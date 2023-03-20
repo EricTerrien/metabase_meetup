@@ -1,1 +1,22 @@
-# metabase_meetup
+= METABASE : une alternative open-source viable pour le monde de la BI ?
+
+== Présentation
+
+* Support de présentation du meetup
+* Source de l'environnement de démonstration
+
+== Installation de l'environnement
+
+* https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-parcoursup/exports/csv?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B[Jeu de données]
+* A positionner dans le volume postgre
+
+[source,shell]
+----
+docker exec -it postgres-meetup psql -U postgres -d postgres
+#Exécution de install.sql
+\copy parcoursup FROM '/var/lib/postgresql/data/parcoursup_2022.csv' DELIMITER ';' CSV HEADER;
+----
+
+== Ressources
+
+* https://github.com/gregoiredavid/france-geojson[Représentation des sources cartographique : gregoiredavid]
